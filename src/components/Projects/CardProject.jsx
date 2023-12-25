@@ -4,8 +4,8 @@ import { Tools } from '../common/Tools';
 
 export const CardProject = ({ project }) => {
 	return (
-		<Card className="bg-black border-primary mt-2">
-			<Card.Img variant="bottom" src={project.thumbnail} />
+		<Card className="bg-black border-primary mt-2 rounded-4">
+			<Card.Img variant="top" src={project.thumbnail} />
 			<Card.Body>
 				<Card.Title className="text-light">{project.title}</Card.Title>
 				<Card.Text className="fst-italic text-primary">{project.startDate} - {project.endDate}</Card.Text>

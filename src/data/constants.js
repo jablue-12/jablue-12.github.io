@@ -1,3 +1,6 @@
+const WEBSITE = 'website';
+// const MOBILE = 'mobile';
+
 export const Bio = {
 	name : 'Jared Castillo',
 	role: 'Full Stack Developer',
@@ -13,11 +16,14 @@ export const Projects = [
 		endDate: 'December 2023',
 		tools: [
 			{ name: 'React' },
+			{ name: 'Spring Boot' },
+			{ name: 'Postgres' },
 			{ name: 'Docker' }
 		],
-		thumbnail: 'https://via.placeholder.com/150',
+		thumbnail: 'src/data/images/crave.png',
 		sourceCode: 'https://github.com/jablue-12/crave',
-		view: 'https://crave-comp4350.netlify.app/'
+		view: 'https://crave-comp4350.netlify.app/',
+		tag: WEBSITE
 	},
 	{
 		title: 'Test1',
@@ -30,7 +36,8 @@ export const Projects = [
 		],
 		thumbnail: 'https://via.placeholder.com/150',
 		sourceCode: 'https://github.com/jablue-12/crave',
-		view: 'https://crave-comp4350.netlify.app/'
+		view: 'https://crave-comp4350.netlify.app/',
+		tag: WEBSITE
 	},
 	{
 		title: 'Test2',
@@ -43,6 +50,7 @@ export const Projects = [
 		],
 		thumbnail: 'https://via.placeholder.com/150',
 		sourceCode: 'https://github.com/jablue-12/crave',
-		view: 'https://crave-comp4350.netlify.app/'
+		view: 'https://crave-comp4350.netlify.app/',
+		tag: WEBSITE
 	}
 ];
