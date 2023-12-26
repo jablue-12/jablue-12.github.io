@@ -1,11 +1,12 @@
-import { Container } from 'react-bootstrap';
-import { Header } from './components/Navbar';
-import { About } from './components/About';
-import { Experience } from './components/Experience';
-import { Project } from './components/Projects';
-import { Education } from './components/Education';
-import { Contact } from './components/Contact';
 
+import { About } from './components/About';
+import { Contact } from './components/Contact';
+import { Container } from 'react-bootstrap';
+import { Education } from './components/Education';
+import { Experience } from './components/Experience';
+import { Header } from './components/Navbar';
+import { Project } from './components/Projects';
+import { Skills } from './components/Skills';
 
 function App() {
 	return (
@@ -16,6 +17,7 @@ function App() {
 				<Experience/>
 				<Project/>
 				<Education/>
+				<Skills/>
 				<Contact/>
 			</Container>
 		</>

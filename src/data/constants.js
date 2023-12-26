@@ -4,8 +4,9 @@ const WEBSITE = "website";
 export const Bio = {
 	name : "Jared Castillo",
 	role: "Software Developer",
-	description: "A small introction about myself, I am Jared Castillo, a recent graduate from the University of Manitoba with a degree in Computer Science. My academic journey has equipped me with a solid foundation in software development, and I've specialized in crafting dynamic and user-friendly interfaces using Vue.js and React.js on the frontend. Complementing this, I've delved into the world of server-side development, employing Spring Boot to create robust and efficient backends.",
-	avatar: "none"
+	description: "A small introction about myself, I am Jared Castillo, a recent graduate from the University of Manitoba with a degree in Computer Science. My academic journey has equipped me with a solid foundation in software development, and I've specialized in crafting dynamic and user-friendly interfaces using Vue.js and React.js on the frontend. Complementing this, I've delved into the world of server-side development, employing Spring Boot and .NET to create robust and efficient backends.",
+	avatar: "src/data/images/avatar/its-a-me-jared.png",
+	resume: "https://drive.google.com/file/d/1c1nQnfFapR3ecLNhrnaK-ZAax6naiMSZ/view?usp=sharing"
 };
 
 export const Experiences = [

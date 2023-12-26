@@ -1,18 +1,25 @@
-import { Col, Row } from "react-bootstrap";
+import { Col, Image, Row } from 'react-bootstrap';
 import { Bio } from '../../data/constants';
 
 export const About = () => {
 	return (
-		<div id="about" className="mt-5 pt-5">
-			<Row className="mt-2">
-				<Col>
-					<p style={{ fontSize: '4rem' }}>Greetings! 👋 </p>
-					<p style={{ fontSize: '1.5rem' }}>{Bio.description}</p>
-				</Col>
-				<Col md={5}>
-					<h3>{Bio.name}</h3>
-				</Col>
-			</Row>
-		</div>
+		<Row className="mt-5 pt-5 justify-content-center">
+			<Col md="auto" className="mb-3">
+				<Image roundedCircle src={Bio.avatar} alt="jared-avatar" />
+				<Row className="my-5 px-5">
+					<a
+						className="btn btn-outline-primary rounded-3"
+						href={Bio.resume}
+						target="_blank"
+						rel="noopener noreferrer">
+							View Resume
+					</a>
+				</Row>
+			</Col>
+			<Col className="p-5">
+				<p style={{ fontSize: '4rem' }} className="text-danger">Greetings! 👋 </p>
+				<p style={{ fontSize: '1.5rem' }} className="fst-italic text-info">{Bio.description}</p>
+			</Col>
+		</Row>
 	);
 };
