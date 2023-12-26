@@ -3,8 +3,8 @@ const WEBSITE = "website";
 
 export const Bio = {
 	name : "Jared Castillo",
-	role: "Full Stack Developer",
-	description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae, officia reiciendis! Tempore hic deserunt, consequuntur facere libero, doloremque quae, culpa similique sequi delectus eaque? Quaerat excepturi distinctio saepe inventore illo laudantium eius animi vero possimus id! Voluptatem, officiis porro possimus minima impedit perspiciatis, molestiae eius sapiente, provident mollitia praesentium repudiandae!",
+	role: "Software Developer",
+	description: "A small introction about myself, I am Jared Castillo, a recent graduate from the University of Manitoba with a degree in Computer Science. My academic journey has equipped me with a solid foundation in software development, and I've specialized in crafting dynamic and user-friendly interfaces using Vue.js and React.js on the frontend. Complementing this, I've delved into the world of server-side development, employing Spring Boot to create robust and efficient backends.",
 	avatar: "none"
 };
 
@@ -118,3 +118,24 @@ export const Projects = [
 		tag: WEBSITE
 	}
 ];
+
+export const Skills = {
+	frontend: ["Vue", "React", "HTML", "CSS", "JavaScript", "Bootstrap"],
+	backend: ["Spring Boot", "Java", "PostgreSQL", "C#", ".NET", "MySQL"],
+	android: ["Java", "Android Studio", "XML"],
+	others: ["Git", "GitHub", "Docker", "Postman", "Netlify", "Render"]
+};
+
+export const Education = {
+	institution: "University of Manitoba",
+	major: "Computer Science Major (Co-op Option)",
+	startDate: "September 2017",
+	endDate: "December 2023"
+};
+
+export const Contact = {
+	email: "jaredcastillo550@gmail.com",
+	phone: "204-880-5225",
+	linkedin: "https://www.linkedin.com/in/jared-castillo-5b0bab11b/",
+	github: "https://github.com/jablue-12"
+};
