@@ -25,7 +25,11 @@ CardProject.propTypes = {
 			description: PropTypes.string.isRequired,
 			startDate: PropTypes.string.isRequired,
 			endDate: PropTypes.string.isRequired,
-			tools: PropTypes.arrayOf.isRequired,
+			tools: PropTypes.arrayOf(
+				PropTypes.shape({
+					name: PropTypes.string.isRequired,
+				})
+			).isRequired,
 			thumbnail: PropTypes.string.isRequired,
 			sourceCode: PropTypes.string.isRequired,
 			view: PropTypes.string.isRequired,

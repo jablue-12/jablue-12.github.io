@@ -12,7 +12,9 @@ export const Tools = ({ tools }) => {
 };
 
 Tools.propTypes = {
-	tools: PropTypes.arrayOf({
-		name: PropTypes.string.isRequired,
-}).isRequired,
+	tools: PropTypes.arrayOf(
+		PropTypes.shape({
+			name: PropTypes.string.isRequired,
+		})
+	).isRequired,
 };
